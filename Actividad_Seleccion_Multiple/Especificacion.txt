@@ -1,0 +1,4 @@
+Grado: Primero
+Nivel: Competencia Morfológica
+Tipo: Selección múltiple
+Habilidades: Aspecto composicional
