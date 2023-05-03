@@ -1,0 +1,5 @@
+Grado: Primero
+Compentencia: Compentencia fonológica y léxica
+Tipo: Digitar
+Categoría: Sílabas
+Habilidades: Conciencia fonológica, Conciencia silábica, segmentación silábica, reconocimiento de sílabas, manipulación silábica
