@@ -2,6 +2,8 @@ body {
 	overflow:hidden;
 }
 
+@import url('https://fonts.cdnfonts.com/css/open-dyslexic');
+
 table {
 	width: 15%;
 	margin-left: auto;
@@ -12,8 +14,6 @@ table {
 td {
 	padding: 20px;
 }
-
-@import url('https://fonts.cdnfonts.com/css/open-dyslexic');
 
 .contenedor{
 	width: 630px;

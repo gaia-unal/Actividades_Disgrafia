@@ -71,6 +71,17 @@ body{
 	background-color: #0a5c1a;
 }
 
+table {
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+
+td {
+	padding: 20px;
+}
+
 #inicial{
 	display:block;
 	margin-left: 50px;
@@ -105,14 +116,14 @@ body{
 }
 
 #imagen2{
-	display: block;
-	width: 15%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;
+	width: 250px;
+	height: auto;
 }
 
-#opcion1{position:absolute;top:295px;left:52px;}
-#opcion2{position:absolute;top:295px;left:194px;}
-#opcion3{position:absolute;top:295px;left:336px;height: auto;}
-#opcion4{position:absolute;top:295px;left:478px;height: auto;}
+#respuesta{
+	font-family: 'Open-Dyslexic', sans-serif; 
+	font-size: 30px; 
+	border: 2px solid blue; 
+	font-size: 20px;
+	text-align: center;
+}
