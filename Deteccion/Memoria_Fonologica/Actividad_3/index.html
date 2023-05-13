@@ -55,29 +55,21 @@
 					</audio>
 				</div>
 				<!-- Aquí va la instrucción de la actividad -->
-				<a href="#" onclick="sonido(1)" style="text-decoration:none; outline:none;"><h3 class="texto" title="¡Da clic para escuchar!">Selecciona el número que acabas de escuchar</h3></a>
+				<a href="#" onclick="sonido(1)" style="text-decoration:none; outline:none;"><h3 class="texto" title="¡Da clic para escuchar!">Escribe la palabra que acabas de escuchar</h3></a>
 			</div>
-	
-			<!-- Aquí va la imagen correspondiente -->
-			<div>
-				<img src="imagenAbaco.png" width:"100" alt="Imagen de un ábaco de madera" id="imagen2">
-			</div>
-	
-			<!-- Aquí van las opciones de respuesta -->
-	
-			<div id="opcion1">
-				<a href="#" onclick="seleccionar(1)" class="opciones" id="1"><img src="opcion1.png" height="42" alt="Opción que dice 15"></a>
-			</div>
-			<div id="opcion2">
-				<a href="#" onclick="seleccionar(2)" class="opciones" id="2"><img src="opcion2.png" height="42" alt="Opción que dice 5"></a>
-			</div>
-			<div id="opcion3">
-				<a href="#" onclick="seleccionar(3)" class="opciones" id="3"><img src="opcion3.png" height="42" alt="Opción que dice 51"></a>
-			</div>
-			<div id="opcion4">
-				<a href="#" onclick="seleccionar(4)" class="opciones" id="4"><img src="opcion4.png" height="42" alt="Opción que dice 31"></a>
-			</div>
-			
+
+			<table>
+				<tr>
+					<td>
+						<!-- Aquí va la imagen correspondiente -->
+						<img src="imagenChica.png" alt="Imagen de una chica con cabello rojo" id="imagen2">
+					</td>
+					<td>
+						<!-- Acá el usuario podrá digitar su respuesta. No cambiar nada. -->
+						<a href="#"><input type="text" id="respuesta" placeholder="Palabra escuchada"></a>
+					</td>
+				</tr>
+			</table>
 			
 			<!-- Aquí va el botón de continuar -->
 			<div id="continuar">
