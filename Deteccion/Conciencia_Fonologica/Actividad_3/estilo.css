@@ -2,18 +2,18 @@ body {
 	overflow:hidden;
 }
 
-@import url('https://fonts.cdnfonts.com/css/open-dyslexic');
-
 table {
 	width: 15%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 td {
 	padding: 20px;
 }
+
+@import url('https://fonts.cdnfonts.com/css/open-dyslexic');
 
 .contenedor{
 	width: 630px;
@@ -39,8 +39,8 @@ td {
   }
 
 #icono-bocina {
-	width: 55px;
-	height: 55px;
+	width: 50px;
+	height: 50px;
 	margin-left: 10%;
 }
 
@@ -78,7 +78,7 @@ td {
 
 
 #imagen1{
-	width: 250px;
+	width: 130px;
 	height: auto;
 }
 

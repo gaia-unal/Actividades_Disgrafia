@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<!--
+	Cambiar los * por la competencia que evalúe la actividad. Por ejemplo, si es una actividad del nivel conciencia fonológica para el grado primero 
+	Poner Actividad Fonológica Gr 1
+	-->
+	<title>Actividad Fonológica Gr 1</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="contenedor">
+
+		<!-- El encabezado: -->
+		<img id="encabezado" src="encabezado.png" alt="encabezado de color verde menta">
+
+		<div class="instruccion">
+			<div>
+				<a href="#" onmouseover="sonido(0)"><img src="bocina.png" alt="Ícono de bocina" id="icono-bocina"
+						title="¡Escucha aquí!"></a>
+				<audio id="audio0" controls hidden="true">
+					<source src="audio0.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+
+			<!-- Aquí va la instrucción de la actividad -->
+			<a href="#" onclick="sonido(0)" style="text-decoration:none; outline:none;">
+				<h3 id="texto" title="¡Da clic para escuchar!">Puedes tocar este botón para escuchar de nuevo la pregunta</h3>
+			</a>
+		</div>
+
+		<table>
+			<tr>
+				<td>
+					<!-- Aquí va la imagen correspondiente -->
+					<a href="#" onclick="sonido(1)"><img src="imagenGlobos.png"
+							alt="Imagen de 3 globos" id="imagen1"
+							title="Escucha aquí la palabra"></a>
+					<audio id="audio1" controls hidden="true">
+						<source src="audio1.mp3" type="audio/mpeg">
+					</audio>
+				</td>
+				<td>
+					<!-- Acá el usuario podrá digitar su respuesta. No cambiar nada. -->
+					<a href="#"><input type="text" id="respuesta" placeholder="Escribe las letras"></a>
+				</td>
+			</tr>
+		</table>
+
+		<!-- Aquí va el botón de continuar -->
+		<div id="continuar">
+			<button id="btn-continuar" title="Clic para continuar">Continuar</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>

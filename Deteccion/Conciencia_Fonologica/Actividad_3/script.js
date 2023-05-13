@@ -3,7 +3,7 @@
 var puntaje = null;
 
 // Acá va la respuesta correcta en minúsculas
-var respuestaCorrectaDelInput = "ardi";
+var respuestaCorrectaDelInput = "globos";
 
 // Acá se definen las acciones del botón continuar
 var boton = document.getElementById('btn-continuar');

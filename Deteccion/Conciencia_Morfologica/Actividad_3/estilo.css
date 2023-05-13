@@ -5,14 +5,10 @@ body {
 @import url('https://fonts.cdnfonts.com/css/open-dyslexic');
 
 table {
-	width: 15%;
+	width: 90%;
 	margin-left: auto;
+	margin-top: 20px;
 	margin-right: auto;
-	margin-top: 60px;
-}
-
-td {
-	padding: 20px;
 }
 
 .contenedor{
@@ -37,6 +33,10 @@ td {
   .instruccion img {
 	margin-right: 10px; /* Agrega un margen a la derecha de la imagen para separarla de la instrucción */
   }
+
+td {
+	padding: 10px;
+}
 
 #icono-bocina {
 	width: 55px;
@@ -78,15 +78,8 @@ td {
 
 
 #imagen1{
-	width: 250px;
-	height: auto;
-}
-
-
-#respuesta{
-	font-family: 'Open-Dyslexic', sans-serif; 
-	font-size: 30px; 
-	border: 2px solid blue; 
-	font-size: 20px;
-	text-align: center;
+	display: block;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
 }
