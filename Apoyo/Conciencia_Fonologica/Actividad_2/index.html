@@ -7,7 +7,7 @@
 	Cambiar los * por la competencia que evalúe la actividad. Por ejemplo, si es una actividad del nivel conciencia fonológica para el grado primero 
 	Poner "Actividad Fonológica Gr 1"
 	-->
-	<title>Actividad Morfológica Gr 1</title>
+	<title>Actividad Fonológica Gr 1</title>
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
@@ -30,43 +30,34 @@
 
 			<!-- Aquí va la instrucción de la actividad -->
 			<a href="#" onclick="sonido(0)" style="text-decoration:none; outline:none;">
-				<h3 id="texto" title="¡Da clic para escuchar!">Elige la forma correcta de escribir la siguiente frase
-				</h3>
+				<h3 id="texto" title="¡Da clic para escuchar!">¿Qué palabra se forma al cambiar la primera sílaba de la
+					palabra “Contador”?</h3>
 			</a>
 		</div>
 
 		<!-- Aquí va la imagen correspondiente -->
-		<img src="imagenFlores.png" alt="Imagen de un ramo de flores amarillas" id="imagen1">
+		<img src="imagenTijeras.png" alt="Imagen de unas tijeras cortando una tarjeta" id="imagen1">
 
 		<!-- Aquí van las opciones de respuesta -->
-		<table>
-			<tr>
-				<td>
-					<div id="opcion1">
-						<a href="#" onclick="seleccionar(1)" class="opciones" id="1"><img src="opcion1.png" height="42"
-								alt="Opción que dice Las flors son amarillas"></a>
-					</div>
-				</td>
-				<td>
-					<div id="opcion2">
-						<a href="#" onclick="seleccionar(2)" class="opciones" id="2"><img src="opcion2.png" height="42"
-								alt="Opción que dice Las flores son amarilla"></a>
-					</div>
-				</td>
-				<td>
-					<div id="opcion3">
-						<a href="#" onclick="seleccionar(3)" class="opciones" id="3"><img src="opcion3.png" height="42"
-								alt="Opción que dice Las flores son amarillas"></a>
-					</div>
-				</td>
-				<td>
-					<div id="opcion4">
-						<a href="#" onclick="seleccionar(4)" class="opciones" id="4"><img src="opcion4.png" height="42"
-								alt="Opción que dice Las flores es amarillas"></a>
-					</div>
-				</td>
-			</tr>
-		</table>
+		<div id="opcion1">
+			<a href="#" onclick="seleccionar(1)" class="opciones" id="1"><img src="opcion1.png" height="42"
+					alt="Opción que dice Cortador"></a>
+		</div>
+
+		<div id="opcion2">
+			<a href="#" onclick="seleccionar(2)" class="opciones" id="2"><img src="opcion2.png" height="42"
+					alt="Opción que dice Tarjeta"></a>
+		</div>
+
+		<div id="opcion3">
+			<a href="#" onclick="seleccionar(3)" class="opciones" id="3"><img src="opcion3.png" height="42"
+					alt="Opción que dice Cortar"></a>
+		</div>
+
+		<div id="opcion4">
+			<a href="#" onclick="seleccionar(4)" class="opciones" id="4"><img src="opcion4.png" height="42"
+					alt="Opción que dice Tijeras"></a>
+		</div>
 
 
 		<!-- Aquí va el botón de continuar -->
