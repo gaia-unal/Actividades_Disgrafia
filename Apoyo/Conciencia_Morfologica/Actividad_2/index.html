@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<!--
+	Cambiar los * por la competencia que evalúe la actividad. Por ejemplo, si es una actividad del nivel conciencia fonológica para el grado primero 
+	Poner Actividad Fonológica Gr 1
+	-->
+	<title >Actividad Morfológica Gr 1</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
+</head>
+
+<body>
+	<div class="contenedor">
+		<!-- El encabezado: -->
+		<img id= "encabezado" src="encabezado.png" alt="encabezado de color verde menta">
+
+		<div class="instruccion">
+			<div>
+				<a href="#" onmouseover="sonido(0)" ><img src="bocina.png" alt="Ícono de bocina" id="icono-bocina" title="¡Escucha aquí!"></a>
+				<audio id="audio0" controls hidden="true">
+					<source src="audio0.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+			<!-- Aquí va la instrucción de la actividad -->
+			<a href="#" onclick="sonido(0)" style="text-decoration:none; outline:none;"><h3 id="texto" title="¡Da clic para escuchar!">Selecciona las palabras que se pueden formar con la palabra BI</h3></a>
+		</div>
+
+		<!-- Aquí van las opciones de respuesta -->
+
+		<div id="opcion1">
+			<a href="#" onclick="seleccionar(1)" class="opciones" id="1"><img src="opcion1.png" height="130" alt="Opción que dice Media"></a>
+		</div>
+		<div id="opcion2">
+			<a href="#" onclick="seleccionar(2)" class="opciones" id="2"><img src="opcion2.png" height="130" alt="Opción que dice Día"></a>
+		</div>
+		<div id="opcion3">
+			<a href="#" onclick="seleccionar(3)" class="opciones" id="3"><img src="opcion3.png" height="120" alt="Opción que dice Campo"></a>
+		</div>
+		<div id="opcion4">
+			<a href="#" onclick="seleccionar(4)" class="opciones" id="4"><img src="opcion4.png" height="120" alt="Opción que dice Noche"></a>
+		</div>
+		
+
+		<div id="continuar">
+			<button id="btn-continuar" title="Clic para continuar">Continuar</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
