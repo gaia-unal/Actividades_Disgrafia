@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<!--
+	Cambiar los * por la competencia que evalúe la actividad. Por ejemplo, si es una actividad del nivel conciencia fonológica para el grado primero 
+	Poner Actividad Fonológica Gr 1
+	-->
+	<title>Actividad Morfológica Gr 1</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
+</head>
+
+<body>
+	<div class="contenedor">
+
+		<!-- El encabezado: -->
+		<img id="encabezado" src="encabezado.png" alt="encabezado de color verde menta">
+
+		<div class="instruccion">
+			<div>
+				<a href="#" onmouseover="sonido(0)"><img src="bocina.png" alt="Ícono de bocina" class="icono-bocina"
+						title="¡Escucha aquí!"></a>
+				<audio id="audio0" controls hidden="true">
+					<source src="audio0.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+
+			<!-- Aquí va la instrucción de la actividad -->
+			<a href="#" onclick="sonido(0)" style="text-decoration:none; outline:none;">
+				<h3 class="texto" title="¡Da clic para escuchar!">Agrega las palabras que faltan en el siguiente texto
+				</h3>
+			</a>
+		</div>
+
+
+		<table>
+			<tr>
+				<td>
+					<!-- Aquí va la imagen correspondiente -->
+					<div>
+						<img src="imagenGaviotas.png" alt="Imagen de gaviotas volando" id="imagen1">
+					</div>
+				</td>
+				<td>
+					<p>
+						Mira las gaviotas<br>
+						Volando en el <br>
+						Con sus alas blancas<br>
+						Abiertas al
+					</p>
+					<p>
+						Parecen cometas<br>
+						Parecen<br>
+						Son sábanas blancas<br>
+						Que van por el
+					</p>
+				</td>
+			</tr>
+		</table>
+
+		<select id="campo1">
+			<option value="blanco"></option>
+			<option value="nubes">nubes</option>
+			<option value="puerto">puerto</option>
+			<option value="comida">comida</option>
+		</select>
+
+		<select id="campo2">
+			<option value="blanco"></option>
+			<option value="viento">viento</option>
+			<option value="amarillo">amarillo</option>
+			<option value="cometas">cometas</option>
+		</select>
+
+		<select id="campo3">
+			<option value="blanco"></option>
+			<option value="gris">gris</option>
+			<option value="tapete">tapete</option>
+			<option value="pañuelos">pañuelos</option>
+		</select>
+
+		<select id="campo4">
+			<option value="blanco"></option>
+			<option value="cielo">cielo</option>
+			<option value="barcos">barcos</option>
+			<option value="casa">casa</option>
+		</select>
+
+
+		<!-- Aquí va el botón de continuar -->
+		<div id="continuar">
+			<button id="btn-continuar" title="Clic para continuar">Continuar</button>
+		</div>
+
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
