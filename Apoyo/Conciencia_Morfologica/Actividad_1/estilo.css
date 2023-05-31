@@ -1,24 +1,22 @@
-body{
+body {
 	overflow: hidden;
 }
 
 @import url('https://fonts.cdnfonts.com/css/open-dyslexic');
 
-.contenedor{
+.contenedor {
 	width: 630px;
 	max-width: 630px;
 	height: 430px;
 	max-height: 430px;
 	font-family: 'Open-Dyslexic', sans-serif;
 	overflow: hidden;
-	/* text-align: center;
-	display: flex;
-    align-items: center; */
 }
 
 .texto {
 	text-decoration: none;
 	color: black;
+	margin-right: 40px;
 }
 
 .instruccion {
@@ -71,63 +69,67 @@ body{
 	background-color: #0a5c1a;
 }
 
-table {
-	width: 15%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 60px;
-}
-
-td {
-	padding: 20px;
-}
-
-#inicial{
-	display:block;
-	margin-left: 50px;
-}
-
-#contenido{
-	display:none;
-	margin-top:3%;
-	margin-left:20%;
-}
-
-#tiempo{
-	position:absolute;
-	top:260px;
-	left:450px;
-	font-size:50px;
-	color:#061a8d;
-	text-align:center;
-	border:3px solid #074134;
-	-webkit-border-radius:60px;
-	border-radius:60px;
-	width:100px;
-	height:100px;
-    background-color:#77c089
-}
-
-/* Imagen inicial */
+/* Imagen principal */
 #imagen1 {
 	display: block;
-	width: 25%;
-	margin-top: 130px;
+	width: 95%;
 }
 
-#imagen2{
-	width: 250px;
-	height: auto;
+table {
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border-collapse: separate;
+	table-layout: fixed;
+	border-spacing: 10px;
 }
 
-#respuesta{
-	font-family: 'Open-Dyslexic', sans-serif; 
-	font-size: 30px; 
-	border: 2px solid blue; 
-	font-size: 20px;
-	text-align: center;
+p {
+	line-height: 155%;
 }
 
-#respuesta:focus {
+#campo1 {
+	position: absolute;
+	top: 170px;
+	left: 450px;
+}
+
+#campo2 {
+	position: absolute;
+	top: 219px;
+	left: 425px;
+}
+
+#campo3 {
+	position: absolute;
+	top: 284px;
+	left: 405px;
+}
+
+#campo4 {
+	position: absolute;
+	top: 333px;
+	left: 458px;
+}
+
+select {
+	background-color: #ffffff;
+	border: 2px solid #002ec5;
+	border-radius: 5px;
+	color: #050000;
+	cursor: pointer;
+	font-size: 14px;
+	transition: all 0.3s ease;
+	font-family: 'Open-Dyslexic', sans-serif;
+}
+
+select:hover {
+	background-color: #f2f2f2;
+}
+
+select:focus {
 	outline: none;
+	border-color: #6c63ff;
+	box-shadow: 0 0 5px #6c63ff;
 }

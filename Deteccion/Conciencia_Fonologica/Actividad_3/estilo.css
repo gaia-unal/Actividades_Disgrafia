@@ -82,11 +82,14 @@ td {
 	height: auto;
 }
 
-
 #respuesta{
 	font-family: 'Open-Dyslexic', sans-serif; 
 	font-size: 30px; 
 	border: 2px solid blue; 
 	font-size: 20px;
 	text-align: center;
+}
+
+#respuesta:focus {
+	outline: none;
 }

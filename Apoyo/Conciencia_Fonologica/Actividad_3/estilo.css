@@ -1,0 +1,148 @@
+body {
+	overflow: hidden;
+}
+
+@import url('https://fonts.cdnfonts.com/css/open-dyslexic');
+
+.contenedor {
+	width: 630px;
+	max-width: 630px;
+	height: 430px;
+	max-height: 430px;
+	font-family: 'Open-Dyslexic', sans-serif;
+	overflow: hidden;
+}
+
+.texto {
+	text-decoration: none;
+	color: black;
+	margin-right: 40px;
+}
+
+.instruccion {
+	display: flex;
+	/* Establece la visualización en línea de los elementos */
+	align-items: center;
+	/* Centra verticalmente los elementos */
+	margin-left: 10px;
+}
+
+.instruccion img {
+	margin-right: 15px;
+	/* Agrega un margen a la derecha de la imagen para separarla de la instrucción */
+}
+
+.icono-bocina {
+	width: 50px;
+	height: 50px;
+	margin-left: 10%;
+}
+
+#encabezado {
+	width: 630px;
+	height: 30px;
+}
+
+#continuar {
+	position: absolute;
+	left: 270px;
+	top: 398px;
+	display: none;
+}
+
+#btn-continuar {
+	width: 80px;
+	background-color: #2e8c2e;
+	border-radius: 8px;
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 8px 12px;
+	text-decoration: none;
+	font-family: "Open-Dyslexic", sans-serif;
+	text-align: center;
+}
+
+#btn-continuar:hover {
+	background-color: #0a5c1a;
+}
+
+/* Imagen principal */
+#imagen1 {
+	display: block;
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#opcion1 {position: absolute;top: 260px;left: 100px;}
+#opcion2 {position: absolute;top: 260px;left: 200px;}
+#opcion3 {position: absolute;top: 260px;left: 300px;}
+#opcion4 {position: absolute;top: 260px;left: 400px;}
+#opcion5 {position: absolute;top: 260px;left: 500px;}
+
+#contenedorNumeracionOpcion1 {
+	position: absolute;
+	top: 320px;
+	left: 100px;
+	height: auto;
+	width: 50px;
+	text-align: center;
+}
+
+#contenedorNumeracionOpcion2 {
+	position: absolute;
+	top: 320px;
+	left: 200px;
+	height: auto;
+	width: 50px;
+	text-align: center;
+}
+
+#contenedorNumeracionOpcion3 {
+	position: absolute;
+	top: 320px;
+	left: 300px;
+	height: auto;
+	width: 50px;
+	text-align: center;
+}
+
+#contenedorNumeracionOpcion4 {
+	position: absolute;
+	top: 320px;
+	left: 400px;
+	height: auto;
+	width: 50px;
+	text-align: center;
+}
+
+#contenedorNumeracionOpcion5 {
+	position: absolute;
+	top: 320px;
+	left: 500px;
+	height: auto;
+	width: 50px;
+	text-align: center;
+}
+
+table {
+	/* border: 1px solid #000;  */
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border-collapse: separate;
+	table-layout: fixed;
+	border-spacing: 10px;
+}
+
+.contenedorNumeracion {
+	background-color: #c8d235;
+	margin: auto;
+	border-radius: 50%;
+	border: 2px solid #0a5c1a;
+}

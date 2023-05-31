@@ -4,17 +4,6 @@ body {
 
 @import url('https://fonts.cdnfonts.com/css/open-dyslexic');
 
-table {
-	width: 15%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 60px;
-}
-
-td {
-	padding: 20px;
-}
-
 .contenedor{
 	width: 630px;
 	max-width: 630px;
@@ -78,19 +67,15 @@ td {
 
 
 #imagen1{
-	width: 250px;
-	height: auto;
+	display: block;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-
-#respuesta{
-	font-family: 'Open-Dyslexic', sans-serif; 
-	font-size: 30px; 
-	border: 2px solid blue; 
-	font-size: 20px;
-	text-align: center;
-}
-
-#respuesta:focus {
-	outline: none;
-}
+#opcion1{position:absolute;top:300px;left:52px;}
+#opcion2{position:absolute;top:300px;left:194px;}
+#opcion3{position:absolute;top:300px;left:336px;height: auto;}
+#opcion4{position:absolute;top:300px;left:478px;height: auto;}
