@@ -1,0 +1,92 @@
+body {
+	overflow:hidden;
+}
+
+@import url('https://fonts.cdnfonts.com/css/open-dyslexic');
+
+table {
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+
+td {
+	padding: 20px;
+}
+
+.contenedor{
+	width: 630px;
+	max-width: 630px;
+	height: 430px;
+	max-height: 430px;
+	font-family: 'Open-Dyslexic', sans-serif; 
+	overflow: hidden;
+}
+
+#texto {
+	text-decoration: none;
+ 	color: black;
+}
+
+.instruccion {
+	display: flex; /* Establece la visualización en línea de los elementos */
+	align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .instruccion img {
+	margin-right: 10px; /* Agrega un margen a la derecha de la imagen para separarla de la instrucción */
+  }
+
+#icono-bocina {
+	width: 55px;
+	height: 55px;
+	margin-left: 10%;
+}
+
+#encabezado {
+	width: 630px;
+	height: 30px;
+}
+
+#continuar {
+	position: absolute;
+	left: 270px;
+	top: 398px;
+	display: none;
+}
+
+#btn-continuar {
+	width: 80px;
+	background-color: #2e8c2e;
+	border-radius: 8px;
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 8px 12px;
+	text-decoration: none;
+	font-family: "Open-Dyslexic", sans-serif;
+	text-align: center;
+}
+
+
+#btn-continuar:hover {
+	background-color: #0a5c1a;
+}
+
+
+#imagen1{
+	width: 250px;
+	height: auto;
+}
+
+
+#respuesta{
+	font-family: 'Open-Dyslexic', sans-serif; 
+	font-size: 30px; 
+	border: 2px solid blue; 
+	font-size: 20px;
+	text-align: center;
+}

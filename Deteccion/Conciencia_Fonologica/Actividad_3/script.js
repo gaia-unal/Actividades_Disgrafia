@@ -2,8 +2,8 @@
 // En puntaje va el valor del puntaje de la actividad
 var puntaje = null;
 
-// Acá va el valor de la respuesta correcta
-var respuestaCorrectaDelInput = "ardi";
+// Acá va la respuesta correcta en minúsculas
+var respuestaCorrectaDelInput = "globos";
 
 // Acá se definen las acciones del botón continuar
 var boton = document.getElementById('btn-continuar');
