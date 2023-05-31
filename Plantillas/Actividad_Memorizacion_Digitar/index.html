@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<!--
+	Cambiar los * por la competencia que evalúe la actividad. Por ejemplo, si es una actividad del nivel conciencia fonológica para el grado primero 
+	Poner "Actividad Fonológica Gr 1"
+	-->
+	<title>Actividad Memoria Fonológica Gr 1</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
+</head>
+
+<body>
+	<div class="contenedor">
+
+		<!-- El encabezado: -->
+		<img id="encabezado" src="encabezado.png" alt="encabezado de color verde menta">
+
+		<!-- Acá poner el contenido inicial que desaparecerá después de los segundos definidos en el script.js-->
+		<div id="inicial">
+			<div class="instruccion">
+				<div>
+					<a href="#" onmouseover="sonido(0)"><img src="bocina.png" alt="Ícono de bocina" class="icono-bocina"
+							title="¡Escucha aquí!"></a>
+					<audio id="audio0" controls hidden="true">
+						<source src="audio0.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+
+				<!-- Aquí va la instrucción de la actividad -->
+				<a href="#" onclick="sonido(0)" style="text-decoration:none; outline:none;">
+					<h3 class="texto" title="¡Da clic para escuchar!">Escucha con atención</h3>
+				</a>
+			</div>
+
+			<!-- Aquí va la imagen correspondiente -->
+			<div>
+				<a href="#"><img src="imagenProfesor.png" alt="Imagen de un profesor" id="imagen1"></a>
+			</div>
+
+			<!-- Este es el reloj que hace la cuenta regresiva -->
+			<!-- NO MOVER -->
+			<input id="tiempo" type="text" name="reloj" value="" style="">
+		</div>
+
+		<div id="contenido">
+			<div class="instruccion">
+				<div>
+					<a href="#" onmouseover="sonido(1)" ><img src="bocina.png" alt="Ícono de bocina" class="icono-bocina" title="¡Escucha aquí!"></a>
+					<audio id="audio1" controls hidden="true">
+						<source src="audio1.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+				<!-- Aquí va la instrucción de la actividad -->
+				<a href="#" onclick="sonido(1)" style="text-decoration:none; outline:none;"><h3 class="texto" title="¡Da clic para escuchar!">Escribe la palabra que acabas de escuchar</h3></a>
+			</div>
+
+			<table>
+				<tr>
+					<td>
+						<!-- Aquí va la imagen correspondiente -->
+						<img src="imagenDesierto.png" alt="Imagen de un desierto" id="imagen2">
+					</td>
+					<td>
+						<!-- Acá el usuario podrá digitar su respuesta. No cambiar nada. -->
+						<a href="#"><input type="text" id="respuesta" placeholder="Palabra escuchada"></a>
+					</td>
+				</tr>
+			</table>
+			
+			<!-- Aquí va el botón de continuar -->
+			<div id="continuar">
+				<button id="btn-continuar">Continuar</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

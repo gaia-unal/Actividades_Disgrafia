@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<!--
+	Cambiar los * por la competencia que evalúe la actividad. Por ejemplo, si es una actividad del nivel conciencia fonológica para el grado primero 
+	Poner Actividad Fonológica Gr 1
+	-->
+	<title>Actividad Fonológica Gr 1</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
+</head>
+
+<body>
+	<div class="contenedor">
+
+		<!-- El encabezado: -->
+		<img id="encabezado" src="encabezado.png" alt="encabezado de color verde menta">
+
+		<div class="instruccion">
+			<div>
+				<a href="#" onmouseover="sonido(0)"><img src="bocina.png" alt="Ícono de bocina" class="icono-bocina"
+						title="¡Escucha aquí!"></a>
+				<audio id="audio0" controls hidden="true">
+					<source src="audio0.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+
+			<!-- Aquí va la instrucción de la actividad -->
+			<a href="#" onclick="sonido(0)" style="text-decoration:none; outline:none;">
+				<h3 class="texto" title="¡Da clic para escuchar!">Selecciona en orden las letras que forman la palabra
+					de la imagen</h3>
+			</a>
+		</div>
+
+
+		<!-- Aquí va la imagen correspondiente -->
+		<div>
+			<img src="imagenMetro.png" alt="Imagen de un metro" id="imagen1">
+		</div>
+
+
+		<!-- Aquí van las opciones de respuesta -->
+		<table>
+			<!-- En esta fila poner las opciones de selección en columnas -->
+			<tr>
+				<td>
+					<div id="opcion1">
+						<a href="#" onclick="seleccionar(1)" class="opciones" id="1"><img src="opcion1.png" height="40"
+								alt="Letra E"></a>
+					</div>
+				</td>
+				<td>
+					<div id="opcion2">
+						<a href="#" onclick="seleccionar(2)" class="opciones" id="2"><img src="opcion2.png" height="40"
+								alt="Letra P"></a>
+					</div>
+				</td>
+				<td>
+					<div id="opcion3">
+						<a href="#" onclick="seleccionar(3)" class="opciones" id="3"><img src="opcion3.png" height="40"
+								alt="Letra R"></a>
+					</div>
+				</td>
+				<td>
+					<div id="opcion4">
+						<a href="#" onclick="seleccionar(4)" class="opciones" id="4"><img src="opcion4.png" height="40"
+								alt="Letra R"></a>
+					</div>
+				</td>
+				<td>
+					<div id="opcion5">
+						<a href="#" onclick="seleccionar(5)" class="opciones" id="5"><img src="opcion5.png" height="40"
+								alt="Letra O"></a>
+					</div>
+				</td>
+			</tr>
+
+			<!-- En esta fila poner tantas columnas de la clase numeracionImagen# como opciones se tengan -->
+			<!-- El # en el id es el respectivo a la columna en la fila superior, es decir, si en la primera columna de la primera fila el id es imagen3
+			entonces el id de la primera columna de esta fila será numeracionImagen3 -->
+			<tr>
+				<td>
+					<div id="contenedorNumeracionOpcion1" class="contenedorNumeracion" style="visibility: hidden;">
+						<p id="numeracionOpcion1" style="visibility: hidden;">X</p>
+					</div>
+				</td>
+				<td>
+					<div id="contenedorNumeracionOpcion2" class="contenedorNumeracion" style="visibility: hidden;">
+						<p id="numeracionOpcion2" style="visibility: hidden;">X</p>
+					</div>
+				</td>
+				<td>
+					<div id="contenedorNumeracionOpcion3" class="contenedorNumeracion" style="visibility: hidden;">
+						<p id="numeracionOpcion3" style="visibility: hidden;">X</p>
+					</div>
+				</td>
+				<td>
+					<div id="contenedorNumeracionOpcion4" class="contenedorNumeracion" style="visibility: hidden;">
+						<p id="numeracionOpcion4" style="visibility: hidden;">X</p>
+					</div>
+				</td>
+				<td>
+					<div id="contenedorNumeracionOpcion5" class="contenedorNumeracion" style="visibility: hidden;">
+						<p id="numeracionOpcion5" style="visibility: hidden;">X</p>
+					</div>
+				</td>
+			</tr>
+		</table>
+
+
+		<!-- Aquí va el botón de continuar -->
+		<div id="continuar">
+			<button id="btn-continuar" title="Clic para continuar">Continuar</button>
+		</div>
+
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
